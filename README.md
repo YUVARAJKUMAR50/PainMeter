@@ -20,4 +20,8 @@ Provides safe, non-invasive, drug-free pain relief by modulating nerve signals a
 ## IoT Integration
 Blynk Cloud stores and visualizes sensor readings in real time.
 Clinicians can monitor pain events, heart rate trends, and therapy sessions remotely through a smartphone app.
+## working 
+The system continuously monitors physiological signals such as heart rate, EMG, and body temperature using wearable sensors. A thermal camera identifies localized temperature hotspots associated with inflammation or pain. All sensor data is processed by a controller to estimate the pain condition in real time. When predefined thresholds are exceeded, the system automatically triggers or recommends TENS therapy at the identified location. The therapy can be adjusted or controlled wirelessly through a mobile application for safety and effectiveness.
+
+
 
