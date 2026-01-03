@@ -23,6 +23,8 @@ Clinicians can monitor pain events, heart rate trends, and therapy sessions remo
 ## working 
 The system continuously monitors physiological signals such as heart rate, EMG, and body temperature using wearable sensors. A thermal camera identifies localized temperature hotspots associated with inflammation or pain. All sensor data is processed by a controller to estimate the pain condition in real time. When predefined thresholds are exceeded, the system automatically triggers or recommends TENS therapy at the identified location. The therapy can be adjusted or controlled wirelessly through a mobile application for safety and effectiveness.
 ![Sample working](Images/Sample Working.jpg)
-
+<p align="center">
+  <img src="Images/Sample Working.jpg" width="200">
+</p>
 
 
