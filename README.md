@@ -20,7 +20,7 @@ Provides safe, non-invasive, drug-free pain relief by modulating nerve signals a
 ## IoT Integration
 Blynk Cloud stores and visualizes sensor readings in real time.
 Clinicians can monitor pain events, heart rate trends, and therapy sessions remotely through a smartphone app.
-## working 
+## Working 
 The system continuously monitors physiological signals such as heart rate, EMG, and body temperature using wearable sensors. A thermal camera identifies localized temperature hotspots associated with inflammation or pain. All sensor data is processed by a controller to estimate the pain condition in real time. When predefined thresholds are exceeded, the system automatically triggers or recommends TENS therapy at the identified location. The therapy can be adjusted or controlled wirelessly through a mobile application for safety and effectiveness.
 <p align="center">
   <img src="Images/Sample Working.jpg" width="200">
@@ -30,7 +30,7 @@ The system continuously monitors physiological signals such as heart rate, EMG, 
   <img src="Images/Flow Chart.jpg" width="400">
 </p>
 
-## Observations and Results
+# Observations and Results
 
 |Parameter|Baseline (No Pain)|Pain Condition|Remarks|
 |---------|------------------|--------------|-------|
@@ -57,7 +57,17 @@ The system continuously monitors physiological signals such as heart rate, EMG, 
   <img src="Images/Display after.jpg" width="250" align="center">
 </div>
 
+# App Integration
+<div>
+  <img src="Images/Patient Monitor.jpg" width="300" align="center">
+</div>
+Designed an app to display, monitor, and store readings for future use.
 
+# Future Work
+Future improvements include optimizing sensor selection and placement to accurately detect pain at specific body regions. The system can be enhanced by designing a dedicated TENS device with adjustable stimulation parameters for personalized pain therapy. Closed-loop feedback can be implemented to automatically adjust therapy based on real-time sensor data. Integration with wearable form factors and wireless communication can enable continuous monitoring and remote healthcare support.
+<div>
+  <img src="Images/Tens Device.jpg" width="250" align="center">
+</div>
 
 
 
