@@ -22,9 +22,43 @@ Blynk Cloud stores and visualizes sensor readings in real time.
 Clinicians can monitor pain events, heart rate trends, and therapy sessions remotely through a smartphone app.
 ## working 
 The system continuously monitors physiological signals such as heart rate, EMG, and body temperature using wearable sensors. A thermal camera identifies localized temperature hotspots associated with inflammation or pain. All sensor data is processed by a controller to estimate the pain condition in real time. When predefined thresholds are exceeded, the system automatically triggers or recommends TENS therapy at the identified location. The therapy can be adjusted or controlled wirelessly through a mobile application for safety and effectiveness.
-![Sample working](Images/Sample Working.jpg)
 <p align="center">
   <img src="Images/Sample Working.jpg" width="200">
 </p>
+<h2 align="center">Process Flow</h2>
+<p align="center">
+  <img src="Images/Flow Chart.jpg" width="400">
+</p>
+
+## Observations and Results
+
+|Parameter|Baseline (No Pain)|Pain Condition|Remarks|
+|---------|------------------|--------------|-------|
+|Heart Rate (BPM)|68 – 74 BPM|84 – 92 BPM	|Increased heart rate due to stress response|
+|IR Pulse Value	|Stable (~500–550)	|Increased (~650–750)	|Stronger pulse amplitude during discomfort|
+|Temperature (°C)	|31.5 – 33.0 °C	|34.5 – 36.0 °C	|Slight rise in localized temperature|
+|Water Sensor |Value	< 400	|> 700|	High pressure detected, triggering pain condition|
+
+<div>
+  <img src="Images/gsr.jpg" width="250" align="center">
+  <img src="Images/HR Reading.jpg" width="300" align="center">
+  <img src="Images/Temp Reading.jpg" width="300" align="center">
+</div>
+
+<h2 align="center">Before pain</h2>
+<div>
+  <img src="Images/Before pain.jpg" width="250" align="center">
+  <img src="Images/Display before.jpg" width="250" align="center">
+</div>
+
+<h2 align="center">After pain</h2>
+<div>
+  <img src="Images/After pain.jpg" width="250" align="center">
+  <img src="Images/Display after.jpg" width="250" align="center">
+</div>
+
+
+
+
 
 
