@@ -37,7 +37,7 @@ The system continuously monitors physiological signals such as heart rate, EMG, 
 |Heart Rate (BPM)|68 – 74 BPM|84 – 92 BPM	|Increased heart rate due to stress response|
 |IR Pulse Value	|Stable (~500–550)	|Increased (~650–750)	|Stronger pulse amplitude during discomfort|
 |Temperature (°C)	|31.5 – 33.0 °C	|34.5 – 36.0 °C	|Slight rise in localized temperature|
-|Water Sensor |Value	< 400	|> 700|	High pressure detected, triggering pain condition|
+|Water Sensor | < 400	| > 700|	High pressure detected, triggering pain condition|
 
 <div>
   <img src="Images/gsr.jpg" width="250" align="center">
