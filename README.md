@@ -40,8 +40,8 @@ The system continuously monitors physiological signals such as heart rate, EMG, 
 |Water Sensor | < 400	| > 700|	High pressure detected, triggering pain condition|
 
 <div>
-  <img src="Images/gsr.jpg" width="250" align="center">
-  <img src="Images/HR Reading.jpg" width="300" align="center">
+  <img src="Images/gsr.jpg" width="250" align="left">
+  <img src="Images/HR Reading.jpg" width="300" align="left">
   <img src="Images/Temp Reading.jpg" width="300" align="center">
 </div>
 
